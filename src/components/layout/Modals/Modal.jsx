@@ -1,10 +1,14 @@
-import NotebookForm from "../NotebookForm";
+import NotebookForm from "../../NotebookForm";
+import { FaPlus } from "react-icons/fa";
 
 function Modal() {
   return (
     <>
-      <label htmlFor="add-notebook-modal" className="btn modal-button">
-        Add Notebook
+      <label
+        htmlFor="add-notebook-modal"
+        className="btn modal-button text-7xl h-20 w-20 rounded-full"
+      >
+        <FaPlus />
       </label>
 
       <input type="checkbox" id="add-notebook-modal" className="modal-toggle" />

@@ -1,3 +1,14 @@
 {
-  "notebooks": []
+  "notebooks": [
+    {
+      "title": "asfaf",
+      "color": "",
+      "id": 2
+    },
+    {
+      "title": "Poop",
+      "color": "#f26969",
+      "id": 3
+    }
+  ]
 }

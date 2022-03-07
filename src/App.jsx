@@ -11,7 +11,7 @@ function App() {
     <NotebookProvider>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="container mx-auto px-20 pb-12 flex-grow">
+        <main className="container mx-auto pb-12 flex-grow">
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/notebook/:id" element={<NotebookDetail />} />
